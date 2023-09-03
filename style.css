@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+    
+}
+
+.nsdc-logo{
+    
+    border-left: 2px solid #DADADA;
+}
+.nav-links{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.batch-line{
+    color: #FFFFFF;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+}
+.placement{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 2px 40px 0px #000000;
+}
+.placement-1{
+    gap: 10px !important;
+}
+.live-class-card{
+    background-color: #FAFAFA;
+    border-radius: 18px;
+    box-shadow: 0px 2px 40px 0px #000000;
+    width: 30vw;
+    padding: 20px;
+}
+
+.input-name>input{
+    border: none;
+    background: none;
+}
+
+.input-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./back-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.course-info{
+    background-color: #ECF8FF;
+}
+.card-div{
+    /* justify-content: space-between; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.course-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: 2px solid #2F80ED;
+}
+.course-card2{
+    border: 2px solid #E2E2E2;
+}
+.heading>img{
+    width: 23px;
+    height: 27px;
+}
+.pockets, .pockets1{
+    gap: 10px;
+}
+.pockets>p{
+    background-color: #E0F3FF;
+    padding: 6px 15px;
+    border-radius: 7px;
+}
+.pockets1>p{
+    background-color: #FFEED8;
+    padding: 6px 15px;
+    border-radius: 7px;
+}
+.col1{
+    align-items: center;
+    width: 40%;
+}
+.col2{
+    width: 40%;
+}
+.row1{
+    border-bottom: 2px solid #CCCCCC;
+}
+.student-card{
+    width: 25vw;
+    padding: 20px;
+    border: 2px solid #D7D7D7;
+    border-radius: 10px;
+    box-shadow: 5px 9px 40px 0px #F2F2F2;
+}
+.success-stories-col{
+    gap: 20px;
+}
+.success-story{
+gap: 20px;
+}
